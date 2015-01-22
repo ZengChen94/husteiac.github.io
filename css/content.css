@@ -1,0 +1,283 @@
+body{
+	overflow-x: hidden;
+
+}
+#content{
+	position: absolute;
+	margin:20px auto 0 auto;
+	width:71.4%;
+	left:15%;
+	max-width: 980px;
+	min-width: 750px;
+	
+	
+}
+
+.change-content{
+	position: absolute;
+	
+	right:20px;
+	width:100%;
+	
+}
+.inner-change-content{
+	position:relative;
+	width:100%;
+	margin-top: -45px;
+}
+
+
+/* The slide part A */
+#grid {
+	position: absolute;
+	font-family: 微软雅黑;
+	margin-left:-15px;
+	width: 110%;
+}
+#grid a figure {
+	border: 1px solid #AAA;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#grid figcaption button {
+	color: rgb(0, 169, 255);
+}
+
+#change1,#change2,#change3{
+	position: absolute;
+}
+
+#homepage-rp1 {
+	position: absolute;
+	margin: 50px 0 0 35%;
+	width: 33px;
+	height: 33px;
+	background-color: #FFC119;
+}
+#homepage-rp2 {
+	position: absolute;
+	margin: 40px 0 0 43%;
+	width: 74px;
+	height: 74px;
+	background-color: #FFC119;
+}
+#homepage-rp3 {
+	position: absolute;
+	margin: 30px 0 0 54%;
+	width: 160px;
+	height: 160px;
+	background-color: #FFC119;
+}
+#homepage-rp4 {
+	position: absolute;
+	margin: 300px 0 0 80%;
+	width: 35px;
+	height: 35px;
+	background-color: #FFC119;
+}
+#homepage-rp5 {
+	position: absolute;
+	margin: 320px 0 0 85%;
+	width: 75px;
+	height: 75px;
+	background-color: #FFC119;
+}
+
+#word {
+	position:absolute;
+	font-size: 3em;
+	font-weight: bold;
+	top:100px;
+	left:60%;
+	color: rgb(68, 68, 68);
+}
+
+
+/* The slide part B */
+
+#thing1{
+	position:absolute;
+	top:50px;
+	left:4%;
+}
+#thing2{
+	position: absolute;
+	top:509px;
+	left: 4%;
+}
+#b-head{
+	position: absolute;
+	left:48%;
+	top:50px;
+	font-size: 23px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+#b-text{
+	position: absolute;
+	top:100px;
+	left:40%;
+	color: #00A9FF;
+	border: 1px solid #AAA;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	height:120px;
+	width:55%;
+}
+#b-message{	
+	margin:25px;
+	top:10%;
+	font-size: 20px;
+	font-weight: normal;
+	color: #00A9FF;
+	text-align: center;
+	margin-top: 11px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+#intro-thing{
+	position: absolute;
+	top:240px;
+	left:40%;
+	width:55%;
+}
+#intro-thing section{
+	text-align: justify;
+	padding-bottom: 15px;
+}
+
+/* The slide part C */
+#contact-info{
+	margin-left: 35px;
+}
+#contact-info h2{
+	font: bold normal normal 26px/1.1em 微软雅黑, AAA, sans-serif;
+	color: rgb(0, 169, 255);
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+#contact-info p{
+	font-size: 0.97em;
+}
+
+#cimage1{
+	position: absolute;
+	margin: -200px 0 0 224px;
+}
+
+#contact-rp1 {
+	position: absolute;
+	margin: -190px 0 0 360px;
+	width: 63px;
+	height: 63px;
+	background-color: #F39C12;
+}
+#contact-rp2 {
+	position: absolute;
+	margin: -130px 0 0 430px;
+	width: 45px;
+	height: 45px;
+	background-color: #FA8E33;
+}
+#contact-rp3 {
+	position: absolute;
+	margin: -170px 0 0 470px;
+	width: 28px;
+	height: 28px;
+	background-color: #FA8E33;
+}
+form{
+	position:absolute;
+	left:50%;
+	top:55%;
+	width:40%;
+}
+
+#username,#useremail,#usersubject,#message{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	//background-color: #F39C12;
+	font-family: AAA;
+	font-size: 17px;
+	color: #F39C12;
+	padding: 5px;
+	margin: 0px 0px 5px 30px;
+	border: 1px solid #aaa;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	width: 110%;
+	outline: none;
+}
+#button {
+	position: absolute;
+	text-align: center;
+	margin-left: 105%;
+	width: 59px;
+	height: 30px;
+	padding: 4px 0;
+	background-color: rgb(0, 169, 255);
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid rgb(0, 169, 255);
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
+}
+
+#button:hover {
+	background-color: white;
+	color: rgb(0, 169, 255);
+	border: 1px solid rgb(0, 169, 255);
+	cursor: pointer;
+}
+/* The slide part D */
+
+.click,.member{
+	width:80%;
+	border:1px solid #AAA;
+	margin-left:10%;
+}
+.member{
+	
+}
+.click{
+	color: #F97545;
+	text-align: center;
+	font-size:large;
+	/*font-family: 微软雅黑, AAA, sans-serif；*/
+	font-stretch:wider;
+	letter-spacing: 1px;
+	font-family: "Microsoft JhengHei";
+	border:1px solid #AAA;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: 20px;
+	height: 50px;
+	padding-top: 27px;
+}
+.click:hover{
+	color: rgb(0, 169, 255);
+	border: 1px solid rgb(0, 169, 255);
+	cursor: pointer;
+}
+
+/* The slide part D */
+/* To be continued */ 

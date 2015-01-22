@@ -1,0 +1,156 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: AAA;
+	src: url("CalibriL.ttf") format("Truetype");
+}
+@font-face {
+	font-family: BBB;
+	src: url("MyriadPro-LightSemiCn.otf") format("Opentype");
+}
+
+body {
+	font-size: 16px;
+	font-family: "Microsoft JhengHei",Arial,Helvetica,sans-serif;
+}
+
+#header {
+	max-width: 980px;
+	min-width: 810px;
+	width: 71.4%;
+	margin: 20px auto 0 auto;
+	position: absolute;
+	top: 0px;
+	left:15%;
+	
+}
+
+h1, h2, h3 {
+	font-size: 16px;
+}
+
+span {
+	text-decoration: none;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+
+#nav {
+	height: 98px;
+	border: 1px solid #BCBCBC;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#nav-left {
+	position: relative;
+}
+
+#nav-left img {
+	margin: 9px 15px;
+}
+
+#nav-left h1 {
+	position: absolute;
+	font-size: 1.9em;
+	color: #F97545;
+	margin: -86px 0 0 90px;
+	margin-left: 163px;
+	letter-spacing: 0px;
+	font-family: BBB;
+}
+
+#nav-left h2 {
+	position: absolute;
+	font-size: 1.9em;
+	color: #FA8E33;
+	margin: -86px 0 0 130px;
+	margin-left: 202px;
+	letter-spacing: 0px;
+	font-family: BBB;
+}
+
+#nav-left h3 {
+	position: absolute;
+	font-size: 1.9em;
+	color: #FA8E33;
+	margin: -86px 0 0 268px;
+	margin-left: 320px;
+	letter-spacing: 0px;
+	font-family: BBB;
+}
+
+#nav-left h4 {
+	position: absolute;
+	font-size: 1.3em;
+	color: rgb(68, 68, 68);
+	margin: -46px 0 0 98px;
+	font-family: "Microsoft JhengHei";
+	font-weight: lighter;
+	margin-left: 164px;
+}
+
+#nav-right {
+	position: relative;
+	text-align: justify;
+	width: 480px;
+	float: right;
+	top: -60px;
+}
+
+#nav-right span {
+	font-family: "Microsoft JhengHei";
+	display: inline-block;
+	text-align: center;
+	width: 113px;
+	color: rgb(68, 68, 68);
+	font-size: 1.1em;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	-o-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+}
+
+#nav-right span:hover {
+	color: #ccc;
+	cursor:pointer;
+}
+
+.active {
+	color: rgb(0, 169, 255) !important;
+}
+
+#shadow-left {
+	width: 165px;
+	height: 26px;
+	background: url(../images/shadow.png) no-repeat;
+	overflow: hidden;
+	margin-left: -20px;
+}
+
+#shadow-right {
+	position: relative;
+	width: 165px;
+	height: 26px;
+	background: url(../images/shadow.png) no-repeat;
+	background-position: top right;
+	overflow: hidden;
+	float: right;
+	margin-right: -20px;
+	top: -26px;
+}
+

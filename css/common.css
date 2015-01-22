@@ -1,0 +1,84 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: AAA;
+	src: url("CalibriL.ttf") format("Truetype");
+}
+
+body {
+	font-size: 16px;
+	font-family: AAA,Arial,Helvetica,sans-serif;
+}
+
+/* change the selected contents' background-color */
+body ::selection {
+    color: #ffffff;
+    background-color: #F39C12;
+    text-shadow:none;
+}
+body ::-moz-selection {
+    color: #ffffff;
+    background-color: #FBC221;
+    text-shadow: none;
+}
+
+a {text-decoration: none;}
+form { outline: none; }
+input:-moz-placeholder { color: #FA8E33; }
+::-webkit-input-placeholder { color: #FA8E33; }
+
+
+
+.round-points {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#b .inner-change-content {
+	font-family: 微软雅黑;
+}
+
+.footer img {
+	position: absolute;
+	display: inline-block;
+}
+
+.footerPic1 {
+	height: 40px;
+	right: 95px;
+top: 5px;
+}
+
+.footerPic2 {
+	height: 45px;
+	right: 0;
+top: 2px;
+}
+
+.footer {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	line-height: 50px;
+}
+
+#footerA {
+	top: 910px;
+}
+
+#footerB {
+	top: 1350px;
+}
+
+#footerC {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#footerD {
+	top: 490px;
+}
